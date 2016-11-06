@@ -1,4 +1,17 @@
+<?php $title = "Главная страница"; ?>
 <?php include "includes/header.php"?>
+<li class="active"><a href="#">Главная</a></li>
+<li><a href="about-us.php">О компании</a></li>
+<li><a href="services.php">Услуги</a></li>
+<li><a href="portfolio.php">Примеры</a></li>
+<li><a href="order.php">Заказать</a></li>
+<li><a href="contact-us.php">Контакты</a></li>
+</ul>
+</div>
+</div><!--/.container-->
+</nav><!--/nav-->
+
+</header><!--/header-->
 <section id="main-slider" class="no-margin">
     <div class="carousel slide">
         <ol class="carousel-indicators">

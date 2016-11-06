@@ -1,4 +1,17 @@
+<?php $title = "О Компании"; ?>
 <?php include "includes/header.php"?>
+<li><a href="#">Главная</a></li>
+<li  class="active"><a href="about-us.php">О компании</a></li>
+<li><a href="services.php">Услуги</a></li>
+<li><a href="portfolio.php">Примеры</a></li>
+<li><a href="order.php">Заказать</a></li>
+<li><a href="contact-us.php">Контакты</a></li>
+</ul>
+</div>
+</div><!--/.container-->
+</nav><!--/nav-->
+
+</header><!--/header-->
 <section id="about-us">
     <div class="container">
         <div class="center wow fadeInDown">

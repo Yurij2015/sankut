@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -5,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Дом Мебели</title>
+    <title>Дом Мебели | <?php echo $title ?></title>
 
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -76,24 +77,3 @@
 
             <div class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Главная</a></li>
-                    <li><a href="about-us.php">О компании</a></li>
-                    <li><a href="#">Услуги</a></li>
-                    <li><a href="#">Примеры</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Разделы <i
-                                class="fa fa-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Каталог</a></li>
-                            <li><a href="#">Цены</a></li>
-                            <li><a href="#">Акции</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Новости</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
-            </div>
-        </div><!--/.container-->
-    </nav><!--/nav-->
-
-</header><!--/header-->
