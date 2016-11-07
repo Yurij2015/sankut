@@ -28,7 +28,7 @@
             <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
                 <div class="col-sm-5 col-sm-offset-1">
                     <div class="form-group">
-                        <label>Имя *</label>
+                        <label>Имя и Фамилия *</label>
                         <input type="text" name="name" class="form-control" required="required">
                     </div>
                     <div class="form-group">
@@ -42,11 +42,11 @@
                     <div class="form-group">
                         <label>Вид услуги *</label>
                         <select type="text" class="form-control" name="servises">
-                            <option value="для дома">Мебель для дома</option>
-                            <option value="для офиса">Мебель для офиса</option>
-                            <option value="ремонт">Ремонт мебели</option>
-                            <option value="перетяжка">Перетяжка мебели</option>
-                            <option value="другое">Другое</option>
+                            <option value="1">Мебель для дома</option>
+                            <option value="2">Мебель для офиса</option>
+                            <option value="3">Ремонт мебели</option>
+                            <option value="4">Перетяжка мебели</option>
+                            <option value="5">Другое</option>
                         </select>
                     </div>
                 </div>
@@ -54,16 +54,16 @@
                     <div class="form-group">
                         <label>Вид мебели *</label>
                         <select type="text" name="object" class="form-control" required="required">
-                            <option value="диван">Диван</option>
-                            <option value="кресло">Кресло</option>
-                            <option value="стул">Стул</option>
-                            <option value="стол">Стол</option>
-                            <option value="кровать">Кровать</option>
-                            <option value="шкаф">Шкаф</option>
-                            <option value="полка">Полка</option>
-                            <option value="тумба">Тумба</option>
-                            <option value="комплект">Комплект</option>
-                            <option value="другое">Другое</option>
+                            <option value="1">Диван</option>
+                            <option value="2">Кресло</option>
+                            <option value="3">Стул</option>
+                            <option value="4">Стол</option>
+                            <option value="5">Кровать</option>
+                            <option value="6">Шкаф</option>
+                            <option value="7">Полка</option>
+                            <option value="8">Тумба</option>
+                            <option value="9">Комплект</option>
+                            <option value="10">Другое</option>
                         </select>
                     </div>
                     <div class="form-group">

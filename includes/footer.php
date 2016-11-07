@@ -67,10 +67,10 @@
             </div>
             <div class="col-sm-6">
                 <ul class="pull-right">
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">О компании</a></li>
-                    <li><a href="#">Поддержка</a></li>
-                    <li><a href="#">Контакты</a></li>
+                    <li><a href="index.php">Главная</a></li>
+                    <li><a href="about-us.php">О компании</a></li>
+                    <li><a href="contact-us.php">Обратная связь</a></li>
+                    <li><a href="admin.php">Админ-панель</a></li>
                 </ul>
             </div>
         </div>

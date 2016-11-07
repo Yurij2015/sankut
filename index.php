@@ -1,5 +1,5 @@
 <?php $title = "Главная страница"; ?>
-<?php include "includes/header.php"?>
+<?php include "includes/header.php" ?>
 <li class="active"><a href="index.php">Главная</a></li>
 <li><a href="about-us.php">О компании</a></li>
 <li><a href="services.php">Услуги</a></li>
@@ -651,14 +651,13 @@
                     <div class="media-body">
                         <h2>У Вас остались еще вопросы?</h2>
                         <p>Позвоните нашим специалистам и они быстро и качественно помогут Вам решить любой вопрос,
-                            связанный с ремонтом, производством, перетяжкой, как офисной так и домашней мебели +7 (985)
-                            456-70-90
-                            80</p>
+                            связанный с ремонтом, производством, перетяжкой, как офисной так и домашней мебели 8 (951)
+                            27-03-330</p>
                     </div>
                 </div>
             </div>
         </div>
     </div><!--/.container-->
 </section><!--/#conatcat-info-->
-<?php include "includes/footer.php"?>
+<?php include "includes/footer.php" ?>
 
