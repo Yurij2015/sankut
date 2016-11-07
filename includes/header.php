@@ -40,7 +40,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-xs-4">
-                    <div class="top-number"><p><i class="fa fa-phone-square"></i> +7 (985) 456-70-90 </p></div>
+                    <div class="top-number"><p><i class="fa fa-phone-square"></i> 8 (951) 27-03-330 </p></div>
                 </div>
                 <div class="col-sm-6 col-xs-8">
                     <div class="social">

@@ -1,6 +1,6 @@
 <?php $title = "О Компании"; ?>
 <?php include "includes/header.php"?>
-<li><a href="#">Главная</a></li>
+<li><a href="index.php">Главная</a></li>
 <li  class="active"><a href="about-us.php">О компании</a></li>
 <li><a href="services.php">Услуги</a></li>
 <li><a href="portfolio.php">Примеры</a></li>
@@ -15,9 +15,9 @@
 <section id="about-us">
     <div class="container">
         <div class="center wow fadeInDown">
-            <h2>About Corlate</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <h2>Наша команда</h2>
+            <p class="lead">В нашей компании работают только профессионалы.  Лучшие консультанты качественно проконсультируют любого клиента, а специалисты сделают самую красивую мебель.
+                <br> Обращайтесь к нам и наслаждайтесь удобной мебелью дома, или в офисе.</p>
         </div>
 
         <!-- about us slider -->
@@ -35,7 +35,7 @@
                         <img src="images/slider_one.jpg" class="img-responsive" alt="">
                     </div>
                     <div class="item">
-                        <img src="images/slider_one.jpg" class="img-responsive" alt="">
+                        <img src="images/slider_two.jpg" class="img-responsive" alt="">
                     </div>
                     <div class="item">
                         <img src="images/slider_one.jpg" class="img-responsive" alt="">
@@ -57,45 +57,44 @@
         <div class="skill-wrap clearfix">
 
             <div class="center wow fadeInDown">
-                <h2>Our Skill</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <h2>У нас заказывают!</h2>
+                <p class="lead">Наши специалисты выполняют большое число работ, среди которые наиболее популярными являются производство мебели для дома и офиса.</p>
             </div>
 
             <div class="row">
 
                 <div class="col-sm-3">
                     <div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div class="joomla-skill">
+                        <div class="for-home">
                             <p><em>85%</em></p>
-                            <p>Joomla</p>
+                            <p>Для дома</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sm-3">
                     <div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="html-skill">
+                        <div class="for-office">
                             <p><em>95%</em></p>
-                            <p>HTML</p>
+                            <p>Для офиса</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sm-3">
                     <div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-                        <div class="css-skill">
+                        <div class="repair">
                             <p><em>80%</em></p>
-                            <p>CSS</p>
+                            <p>Ремонт</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sm-3">
                     <div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
-                        <div class="wp-skill">
-                            <p><em>90%</em></p>
-                            <p>Wordpress</p>
+                        <div class="trimming">
+                            <p><em>44%</em></p>
+                            <p>Перетяжка</p>
                         </div>
                     </div>
                 </div>
@@ -108,9 +107,8 @@
         <!-- our-team -->
         <div class="team">
             <div class="center wow fadeInDown">
-                <h2>Team of Corlate</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <h2>Наша команда</h2>
+                <p class="lead">Лучшие менеджеры и мастера помогут решить ваш мебельный вопрос. <br> Обращайтесь, заказывайте и наслаждайтесь новой мебелью.</p>
             </div>
 
             <div class="row clearfix">
@@ -118,16 +116,16 @@
                     <div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="media">
                             <div class="pull-left">
-                                <a href="#"><img class="media-object" src="images/man1.jpg" alt=""></a>
+                                <a href="#"><img class="media-object" src="images/osipov.jpg" alt=""></a>
                             </div>
                             <div class="media-body">
-                                <h4>Jhon Doe</h4>
-                                <h5>Founder and CEO</h5>
+                                <h4>Иван Осипов</h4>
+                                <h5>Главный по продажам</h5>
                                 <ul class="tag clearfix">
-                                    <li class="btn"><a href="#">Web</a></li>
-                                    <li class="btn"><a href="#">Ui</a></li>
-                                    <li class="btn"><a href="#">Ux</a></li>
-                                    <li class="btn"><a href="#">Photoshop</a></li>
+                                    <li class="btn"><a href="#">SMM</a></li>
+                                    <li class="btn"><a href="#">SEO</a></li>
+                                    <li class="btn"><a href="#">PR</a></li>
+                                    <li class="btn"><a href="#">Реклама</a></li>
                                 </ul>
 
                                 <ul class="social_icons">
@@ -137,9 +135,7 @@
                                 </ul>
                             </div>
                         </div><!--/.media -->
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour, or randomised words which don't look
-                            even slightly believable.</p>
+                        <p>Руководитель отдела продаж, обеспечивает и контролирует продажи компании. Обеспечивает новые источники клиентов, отвечает за поддержание коммуникаций с постоянными клиентами. В подчинении команда специалистов отдела. </p>
                     </div>
                 </div><!--/.col-lg-4 -->
 
@@ -148,16 +144,15 @@
                     <div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="media">
                             <div class="pull-left">
-                                <a href="#"><img class="media-object" src="images/man2.jpg" alt=""></a>
+                                <a href="#"><img class="media-object" src="images/durov.jpg" alt=""></a>
                             </div>
                             <div class="media-body">
-                                <h4>Jhon Doe</h4>
-                                <h5>Founder and CEO</h5>
+                                <h4>Евгений Дуров</h4>
+                                <h5>Производство</h5>
                                 <ul class="tag clearfix">
-                                    <li class="btn"><a href="#">Web</a></li>
-                                    <li class="btn"><a href="#">Ui</a></li>
-                                    <li class="btn"><a href="#">Ux</a></li>
-                                    <li class="btn"><a href="#">Photoshop</a></li>
+                                    <li class="btn"><a href="#">Мебель</a></li>
+                                    <li class="btn"><a href="#">Ремонт</a></li>
+                                    <li class="btn"><a href="#">Покраска</a></li>
                                 </ul>
                                 <ul class="social_icons">
                                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -166,9 +161,7 @@
                                 </ul>
                             </div>
                         </div><!--/.media -->
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour, or randomised words which don't look
-                            even slightly believable.</p>
+                        <p>Главный в направлении производства. Руководить соответствующим отделом, обеспечивает выполнение заказов. Контролирует и проверяет работу мастеров. Распределяет нагрузки на мастеров. Проверяет качество созданных изделий. </p>
                     </div>
                 </div><!--/.col-lg-4 -->
             </div> <!--/.row -->
@@ -199,16 +192,15 @@
                     <div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="media">
                             <div class="pull-left">
-                                <a href="#"><img class="media-object" src="images/man3.jpg" alt=""></a>
+                                <a href="#"><img class="media-object" src="images/sazonov.jpg" alt=""></a>
                             </div>
 
                             <div class="media-body">
-                                <h4>Jhon Doe</h4>
-                                <h5>Founder and CEO</h5>
+                                <h4>Илья Сазонов</h4>
+                                <h5>Дизайнер</h5>
                                 <ul class="tag clearfix">
-                                    <li class="btn"><a href="#">Web</a></li>
-                                    <li class="btn"><a href="#">Ui</a></li>
-                                    <li class="btn"><a href="#">Ux</a></li>
+                                    <li class="btn"><a href="#">CorelDraw</a></li>
+                                    <li class="btn"><a href="#">GIMP</a></li>
                                     <li class="btn"><a href="#">Photoshop</a></li>
                                 </ul>
                                 <ul class="social_icons">
@@ -218,25 +210,22 @@
                                 </ul>
                             </div>
                         </div><!--/.media -->
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour, or randomised words which don't look
-                            even slightly believable.</p>
+                        <p>Проектирует современную и стильную мебель. Созданная по проектам мебель радует глаза разнообразием и ассортиментом. Есть проекты и модели стульев, кушеток, столов, кресел, диванов.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-md-offset-2">
                     <div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="media">
                             <div class="pull-left">
-                                <a href="#"><img class="media-object" src="images/man4.jpg" alt=""></a>
+                                <a href="#"><img class="media-object" src="images/markova.jpg" alt=""></a>
                             </div>
                             <div class="media-body">
-                                <h4>Jhon Doe</h4>
-                                <h5>Founder and CEO</h5>
+                                <h4>Ольга Маркова</h4>
+                                <h5>Реклама и PR</h5>
                                 <ul class="tag clearfix">
-                                    <li class="btn"><a href="#">Web</a></li>
-                                    <li class="btn"><a href="#">Ui</a></li>
-                                    <li class="btn"><a href="#">Ux</a></li>
-                                    <li class="btn"><a href="#">Photoshop</a></li>
+                                    <li class="btn"><a href="#">PR</a></li>
+                                    <li class="btn"><a href="#">Реклама</a></li>
+                                    <li class="btn"><a href="#">Продвижеие</a></li>
                                 </ul>
                                 <ul class="social_icons">
                                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -245,9 +234,7 @@
                                 </ul>
                             </div>
                         </div><!--/.media -->
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour, or randomised words which don't look
-                            even slightly believable.</p>
+                        <p>Без продвижения нет продаж. Ольга отвечает за работу с общественностью, рассказывает о нас СМИ, ведет сообщества в социальных сетях, готовит статьи на сайт. Отвечает на вопросы пользователей.</p>
                     </div>
                 </div>
             </div>    <!--/.row-->

@@ -1,6 +1,6 @@
 <?php $title = "Главная страница"; ?>
 <?php include "includes/header.php"?>
-<li class="active"><a href="#">Главная</a></li>
+<li class="active"><a href="index.php">Главная</a></li>
 <li><a href="about-us.php">О компании</a></li>
 <li><a href="services.php">Услуги</a></li>
 <li><a href="portfolio.php">Примеры</a></li>
@@ -287,7 +287,7 @@
     <div class="container">
         <div class="center wow fadeInDown">
             <h2>Наши услуги</h2>
-            <p class="lead">Нааш компания предоставляет широкий перечень услуг на ряду с основной услугой. <br>С
+            <p class="lead">Наша компания предоставляет широкий перечень услуг на ряду с основной услугой. <br>С
                 перечнем услуг можно ознакомиться ниже</p>
         </div>
 
