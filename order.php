@@ -1,3 +1,5 @@
+<?php include "includes/session.php"; ?>
+<?php include "includes/dbconnect.php"; ?>
 <?php $title = "Оформить заказ"; ?>
 <?php include "includes/header.php" ?>
 <li><a href="index.php">Главная</a></li>
@@ -18,14 +20,18 @@
 
     <div class="container">
         <div class="center">
+
             <h2>Оформить заказ</h2>
             <p class="lead">Заполните форму и нажмите кнопку "Заказать".</p>
             <p class="lead">Если есть вопросы не по заказу, Вам сюда - <a href="about-us.php">Обратная связь</a></p>
+            <h2><?php echo message(); ?></h2>
+
         </div>
 
         <div class="row contact-wrap">
             <div class="status alert alert-success" style="display: none"></div>
-            <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+            <form class="contact-form" name="contact-form" method="post"
+                  action="processing_order.php">
                 <div class="col-sm-5 col-sm-offset-1">
                     <div class="form-group">
                         <label>Имя и Фамилия *</label>
@@ -37,23 +43,24 @@
                     </div>
                     <div class="form-group">
                         <label>Номер телефона *</label>
-                        <input type="number" class="form-control" required="required">
+                        <input type="text" class="form-control" required="required" name="phone_number">
                     </div>
                     <div class="form-group">
                         <label>Вид услуги *</label>
-                        <select type="text" class="form-control" name="servises">
+                        <select type="text" class="form-control" name="service">
                             <option value="1">Мебель для дома</option>
                             <option value="2">Мебель для офиса</option>
-                            <option value="3">Ремонт мебели</option>
-                            <option value="4">Перетяжка мебели</option>
-                            <option value="5">Другое</option>
+                            <option value="5">Ремонт мебели</option>
+                            <option value="6">Перетяжка мебели</option>
+                            <option value="9">Другое</option>
                         </select>
                     </div>
                 </div>
                 <div class="col-sm-5">
                     <div class="form-group">
                         <label>Вид мебели *</label>
-                        <select type="text" name="object" class="form-control" required="required">
+                        <select type="text" name="furniture" class="form-control"
+                                required="required">
                             <option value="1">Диван</option>
                             <option value="2">Кресло</option>
                             <option value="3">Стул</option>
@@ -68,11 +75,11 @@
                     </div>
                     <div class="form-group">
                         <label>Пожелания</label>
-                        <textarea name="message" id="message" class="form-control"
+                        <textarea name="wishes" class="form-control"
                                   rows="8"></textarea>
                     </div>
                     <div class="form-group">
-                        <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Заказать
+                        <button type="submit" name="submit" class="btn btn-primary btn-lg">Заказать
                         </button>
                     </div>
                 </div>
