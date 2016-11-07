@@ -1,3 +1,5 @@
+<?php include "includes/session.php"; ?>
+<?php include "includes/dbconnect.php"; ?>
 <?php $title = "Admin"; ?>
 <?php include "includes/header.php" ?>
 <li><a href="index.php">Главная</a></li>
@@ -19,6 +21,14 @@
         <div class="center">
             <h2>Административная панель</h2>
             <p class="lead">Просмотр заявок и заказов</p>
+
+            <div class="list-group">
+                <a href="list_of_orders.php" class="list-group-item" target="_blank">
+                    Заявки</a>
+                <a href="list_of_feeds.php" class="list-group-item" target="_blank">
+                    Вопросы</a>
+            </div>
+
         </div>
 
 

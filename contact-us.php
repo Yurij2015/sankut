@@ -1,3 +1,5 @@
+<?php include "includes/session.php"; ?>
+<?php include "includes/dbconnect.php"; ?>
 <?php $title = "Контакты"; ?>
 <?php include "includes/header.php" ?>
 <li><a href="index.php">Главная</a></li>
@@ -18,8 +20,9 @@
     <div class="container">
         <div class="center">
             <h2>Обратная связь</h2>
-            <p class="lead">Если у Вас есть вопросы, которые не связаны из заказом услуги, заполните форму и отправьте ее. Наши специалисты прочитают и ответят на Ваши вопросы.</p>
+            <p class="lead">Если у Вас есть вопросы, которые не связаны из заказом услуги, заполните форму и отправьте ее. <br>Наши специалисты прочитают и ответят на Ваши вопросы.</p>
             <p class="lead">Заказ можно оформить здесь - <a href="order.php">Страница заказа</a></p>
+            <h2><?php echo message(); ?></h2>
         </div>
         <div class="row contact-wrap">
             <div class="status alert alert-success" style="display: none"></div>
@@ -35,11 +38,11 @@
                     </div>
                     <div class="form-group">
                         <label>Номер телефона</label>
-                        <input type="number" class="form-control">
+                        <input type="text" class="form-control" name="phone_number">
                     </div>
                     <div class="form-group">
                         <label>Название компании</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" name="company_name">
                     </div>
                 </div>
                 <div class="col-sm-5">
@@ -49,7 +52,7 @@
                     </div>
                     <div class="form-group">
                         <label>Сообщение *</label>
-                        <textarea name="message" id="message" required="required" class="form-control"
+                        <textarea name="message" required="required" class="form-control"
                                   rows="8"></textarea>
                     </div>
                     <div class="form-group">
