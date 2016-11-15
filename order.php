@@ -1,4 +1,4 @@
-<?php include "includes/session.php"; ?>
+<?php include "includes/functions.php"; ?>
 <?php include "includes/dbconnect.php"; ?>
 <?php $title = "Оформить заказ"; ?>
 <?php include "includes/header.php" ?>

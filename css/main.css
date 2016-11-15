@@ -2525,7 +2525,12 @@ shortcodes page css
   margin-left: 15px;
 }
 
-
+.wrong_p_or_l {
+  color: red;
+  text-align: center;
+  font-size: 16px;
+  line-height: 50px;
+}
 
 
 

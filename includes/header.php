@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -6,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Дом Мебели | <?php echo $title ?></title>
-
+    <title>Дом Мебели | <?php echo $title; ?></title>
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -24,17 +22,8 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-
-    <!-- BEGIN JIVOSITE CODE {literal} -->
-<!--    <script type='text/javascript'>-->
-<!--        (function(){ var widget_id = 'NxmoM1rpxd';var d=document;var w=window;function l(){-->
-<!--            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>-->
-    <!-- {/literal} END JIVOSITE CODE -->
-
 </head><!--/head-->
-
 <body class="homepage">
-
 <header id="header">
     <div class="top-bar">
         <div class="container">
@@ -62,7 +51,6 @@
             </div>
         </div><!--/.container-->
     </div><!--/.top-bar-->
-
     <nav class="navbar navbar-inverse" role="banner">
         <div class="container">
             <div class="navbar-header">
@@ -74,6 +62,5 @@
                 </button>
                 <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="logo"></a>
             </div>
-
             <div class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
